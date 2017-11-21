@@ -507,3 +507,10 @@ register(
     entry_point='gym.envs.safety:OffSwitchCartpoleProbEnv',
     max_episode_steps=200,
 )
+
+
+# customer
+register(
+    id='TankEnv-v0',
+    entry_point='gym.envs.battle:TankEnv',
+)
